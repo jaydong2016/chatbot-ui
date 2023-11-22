@@ -46,7 +46,7 @@ export const initialState: HomeInitialState = {
   showPromptbar: true,
   showChatbar: true,
   currentFolder: undefined,
-  messageError: true,
+  messageError: false,
   searchTerm: '',
   defaultModelId: undefined,
   serverSideApiKeyIsSet: false,
