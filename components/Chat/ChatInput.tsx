@@ -387,7 +387,7 @@ export const ChatInput = ({
           className="underline"
         >
           主站 ，
-        </a>
+        </a></p>
         <a
           href="https://r2.adone.eu.org/2023/9b9b029345fe4e563bff16327c8b7746.jpg"
           target="_blank"
