@@ -386,7 +386,15 @@ export const ChatInput = ({
           rel="noreferrer"
           className="underline"
         >
-          HaiFreeGPT 主站
+          主站
+        </a>
+        <a
+          href="https://r2.adone.eu.org/2023/9b9b029345fe4e563bff16327c8b7746.jpg"
+          target="_blank"
+          rel="noreferrer"
+          className="underline"
+        >
+          打赏
         </a>
         .{' '}
         {t(

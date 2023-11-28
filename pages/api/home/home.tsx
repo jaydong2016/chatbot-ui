@@ -360,13 +360,15 @@ const Home = ({
       }}
     >
       <Head>
-        <title>HaiFreeGPT</title>
-        <meta name="description" content="ChatGPT but better." />
+        <title>Hai FreeGPT</title>
+        <meta name="description" content="ChatGPT but better. 免费公益站 hai.dongstop.link" />
         <meta
           name="viewport"
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
         />
         <link rel="icon" href="/favicon.ico" />
+        <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+        <script>LA.init({id:"3GZORVyxiPPrdcYf",ck:"3GZORVyxiPPrdcYf"})</script>
       </Head>
       {selectedConversation && (
         <main
