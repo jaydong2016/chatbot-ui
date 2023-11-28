@@ -216,6 +216,7 @@ export const SystemPrompt: FC<Props> = ({
         rows={1}
         onChange={handleChange}
         onKeyDown={handleKeyDown}
+        readOnly  // 使 input 元素只读
       />
 
       {showPromptList && filteredPrompts.length > 0 && (

@@ -386,7 +386,7 @@ export const ChatInput = ({
           rel="noreferrer"
           className="underline"
         >
-          HaiFreeGPT
+          HaiFreeGPT 主站
         </a>
         .{' '}
         {t(
