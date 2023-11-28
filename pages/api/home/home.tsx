@@ -367,6 +367,16 @@ const Home = ({
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
         />
         <link rel="icon" href="/favicon.ico" />
+          <script
+            charset="UTF-8"
+            id="LA_COLLECT"
+            src="//sdk.51.la/js-sdk-pro.min.js"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `LA.init({id:"3GZORVyxiPPrdcYf",ck:"3GZORVyxiPPrdcYf"})`,
+            }}
+          />
       </Head>
       {selectedConversation && (
         <main
