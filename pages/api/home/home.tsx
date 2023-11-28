@@ -88,7 +88,7 @@ const Home = ({
         signal,
       );
     },
-    { enabled: true, refetchOnMount: false },
+    { enabled: false, refetchOnMount: false },
   );
 
   useEffect(() => {
@@ -360,7 +360,7 @@ const Home = ({
       }}
     >
       <Head>
-        <title>Chatbot UI</title>
+        <title>HaiFreeGPT</title>
         <meta name="description" content="ChatGPT but better." />
         <meta
           name="viewport"

@@ -9,7 +9,7 @@ export interface HomeInitialState {
   apiKey: string;
   pluginKeys: PluginKey[];
   loading: boolean;
-  lightMode: 'light' | 'dark';
+  lightMode: 'light';
   messageIsStreaming: boolean;
   modelError: ErrorMessage | null;
   models: OpenAIModel[];
@@ -43,10 +43,10 @@ export const initialState: HomeInitialState = {
   currentMessage: undefined,
   prompts: [],
   temperature: 1,
-  showPromptbar: true,
+  showPromptbar: false,
   showChatbar: true,
   currentFolder: undefined,
-  messageError: false,
+  messageError: true,
   searchTerm: '',
   defaultModelId: undefined,
   serverSideApiKeyIsSet: true,
