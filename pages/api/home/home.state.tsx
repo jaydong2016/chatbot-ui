@@ -31,7 +31,7 @@ export interface HomeInitialState {
 
 export const initialState: HomeInitialState = {
   apiKey: '',
-  loading: true,
+  loading: false,
   pluginKeys: [],
   lightMode: 'light',
   messageIsStreaming: false,
@@ -49,6 +49,6 @@ export const initialState: HomeInitialState = {
   messageError: true,
   searchTerm: '',
   defaultModelId: undefined,
-  serverSideApiKeyIsSet: true,
+  serverSideApiKeyIsSet: false,
   serverSidePluginKeysSet: false,
 };
