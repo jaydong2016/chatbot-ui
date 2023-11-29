@@ -35,7 +35,7 @@ export const initialState: HomeInitialState = {
   pluginKeys: [],
   lightMode: 'light',
   messageIsStreaming: false,
-  modelError: 262,
+  modelError: null,
   models: [],
   folders: [],
   conversations: [],
