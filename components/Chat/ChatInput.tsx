@@ -386,7 +386,7 @@ export const ChatInput = ({
           rel="noreferrer"
           className="underline"
         >
-          主站 ，   
+          主站 。 
         </a>
         <a
           href="https://r2.adone.eu.org/2023/9b9b029345fe4e563bff16327c8b7746.jpg"
@@ -394,11 +394,11 @@ export const ChatInput = ({
           rel="noreferrer"
           className="underline"
         >
-          打赏 ，
+          打赏 。 
         </a>
-        .{' '}
+        {' '}
         {t(
-          "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
+          "若出现错误可尝试刷新页面",
         )}
       </div>
     </div>
