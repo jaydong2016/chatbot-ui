@@ -34,7 +34,7 @@ export const initialState: HomeInitialState = {
   loading: false,
   pluginKeys: [],
   lightMode: 'light',
-  messageIsStreaming: true,
+  messageIsStreaming: false,
   modelError: null,
   models: [],
   folders: [],
@@ -49,6 +49,6 @@ export const initialState: HomeInitialState = {
   messageError: true,
   searchTerm: '',
   defaultModelId: undefined,
-  serverSideApiKeyIsSet: true,
+  serverSideApiKeyIsSet: false,
   serverSidePluginKeysSet: false,
 };
