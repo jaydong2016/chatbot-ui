@@ -31,7 +31,7 @@ export interface HomeInitialState {
 
 export const initialState: HomeInitialState = {
   apiKey: '',
-  loading: true,
+  loading: false,
   pluginKeys: [],
   lightMode: 'light',
   messageIsStreaming: false,
@@ -46,7 +46,7 @@ export const initialState: HomeInitialState = {
   showPromptbar: false,
   showChatbar: true,
   currentFolder: undefined,
-  messageError: true,
+  messageError: false,
   searchTerm: '',
   defaultModelId: undefined,
   serverSideApiKeyIsSet: false,
