@@ -31,7 +31,7 @@ export interface HomeInitialState {
 
 export const initialState: HomeInitialState = {
   apiKey: '',
-  loading: false,
+  loading: true,
   pluginKeys: [],
   lightMode: 'light',
   messageIsStreaming: false,
