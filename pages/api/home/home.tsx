@@ -88,7 +88,7 @@ const Home = ({
         signal,
       );
     },
-    { enabled: false, refetchOnMount: false },
+    { enabled: true, refetchOnMount: false },
   );
 
   useEffect(() => {
@@ -204,7 +204,7 @@ const Home = ({
     saveConversation(newConversation);
     saveConversations(updatedConversations);
 
-    dispatch({ field: 'loading', value: false });
+    // dispatch({ field: 'loading', value: false });
   };
 
   const handleUpdateConversation = (
