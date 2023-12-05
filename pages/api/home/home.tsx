@@ -88,7 +88,7 @@ const Home = ({
         signal,
       );
     },
-    { enabled: true, refetchOnMount: false },
+    { enabled: false, refetchOnMount: false },
   );
 
   useEffect(() => {
